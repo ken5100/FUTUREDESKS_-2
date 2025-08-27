@@ -4,6 +4,9 @@ import HeroSection from "./components/HeroSection";
 import ContactForm from "./components/Form";
 import MovingString from "./components/MovingStrip";
 import VideoPage from "./components/VideoPage"
+import FeatureSection from "./components/FeatureSection";
+import TechStack from "./components/TechStack";
+import FAQSection from "./components/FAQSection";
 
 
 function App() {
@@ -33,6 +36,27 @@ function App() {
 
 <div id="contact" className="pt-4 md:pt-10">
   <VideoPage />
+</div>
+
+
+<div id="contact" className="pt-4 md:pt-10">
+  <FeatureSection />
+</div>
+
+<div id="contact" className="pt-4 md:pt-10">
+  <TechStack />
+</div>
+
+
+<div id="contact" className="pt-4 md:pt-10">
+  <FAQSection />
+</div>
+
+
+<div className="text-center py-4 min-h-[10vh]">
+  <span className="text-gray-600 text-lg drop-shadow-md">
+    © 2025 Futuredesks Services. All rights reserved.
+  </span>
 </div>
 
 
