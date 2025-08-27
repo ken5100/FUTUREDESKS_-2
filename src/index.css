@@ -1,25 +1,17 @@
+
+@import url('https://api.fontshare.com/v2/css?f[]=matter@400,500,600,700&display=swap');
 @import "tailwindcss";
 
-@font-face {
-  font-family: "Gilroy-Medium";
-  src: url("/fonts/Gilroy-Medium.woff2") format("woff2"),
-       url("/fonts/Gilroy-Medium.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+/* Then your customizations */
+:root {
+  --font-matter: 'Matter', sans-serif;
 }
 
-
-html, body {
-  font-family: "Gilroy-Medium", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px; /* base size, Tailwind scales from this */
-  line-height: 120%;
-  letter-spacing: -0.01em;
+@theme {
+  --font-sans: var(--font-matter);
 }
 
-
-
+/* Animations */
 @keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
@@ -31,15 +23,12 @@ html, body {
   animation: marquee 20s linear infinite;
 }
 
-.float-animation {
-  animation: float 4s ease-in-out infinite;
-}
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-15px); /* how high it floats */
+    transform: translateY(-15px);
   }
 }
 

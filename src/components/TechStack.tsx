@@ -10,7 +10,7 @@ export default function TechStack() {
           Tech Stack
         </span>
 
-      <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900">
+      <h2 className="text-2xl sm:text-3xl md:text-5xl font-medium text-gray-900">
   Built with Modern Technology for Cross-Platform
   {/* Line break only visible on md and larger screens */}
   <br className="hidden md:block" /> 

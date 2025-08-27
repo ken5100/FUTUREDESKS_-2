@@ -47,7 +47,7 @@ export default function ContactForm() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 sm:mb-12"
+          className="text-3xl sm:text-4xl md:text-5xl font-medium text-center mb-8 sm:mb-12"
         >
           Let&apos;s Connect
         </motion.h2>
