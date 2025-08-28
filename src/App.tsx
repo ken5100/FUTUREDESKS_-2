@@ -25,7 +25,7 @@ function App() {
   <div className="absolute bottom-0 w-full h-16 bg-gradient-to-t from-white to-transparent"></div>
 </div>
       {/* Second Page (Form Section) */}
-      <div id="contact" className="">
+      <div id="contact" className=" md:pt-10">
         <ContactForm />
       </div>
 

@@ -35,7 +35,8 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white px-4 sm:px-6">
+    <div className="flex items-center justify-center min-h-[80vh] sm:min-h-screen bg-white px-4 sm:px-6">
+
       <motion.div
         initial={{ opacity: 0, scale: 0.9, y: 60 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
